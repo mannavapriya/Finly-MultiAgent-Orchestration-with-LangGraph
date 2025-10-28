@@ -6,3 +6,6 @@ This one dives into:
  * 𝗧𝗮𝘃𝗶𝗹𝘆 for real-time contextual search
  * 𝗦𝗲𝗿𝗽𝗔𝗽𝗶 for google finance data retrieval
  * Coordinated multi-agent workflow that routes tasks intelligently
+
+For more details: https://medium.com/@manasapriyamvadamannava/designing-intelligent-multi-agent-systems-using-langgraph-tavily-and-serpapi-e4de03293169
+
