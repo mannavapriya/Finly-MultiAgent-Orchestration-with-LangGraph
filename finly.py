@@ -63,7 +63,7 @@ Use the ReAct approach:
 4. Provide a comprehensive, formatted response
 
 Available tools:
-- TavilySearch: Search for current travel information
+- TavilySearch: Search for current finance information
 
 Format your financial updates with:
 - Companies on the rise
@@ -366,7 +366,7 @@ import operator
 from langchain_core.messages import BaseMessage
 
 class FinancePlannerState(TypedDict):
-    """Simple state schema for travel multiagent system"""
+    """Simple state schema for Finance multiagent system"""
 
     # Conversation history - persisted with checkpoint memory
     messages: Annotated[List[BaseMessage], operator.add]
@@ -500,7 +500,7 @@ from langchain_core.messages import HumanMessage
 
 def multi_turn_chat():
     """Multi-turn conversation with checkpoint memory"""
-    print("💬 Multi-Agent Travel Assistant (Multi-turn Mode)")
+    print("💬 Multi-Agent Finance Assistant (Multi-turn Mode)")
     print("=" * 50)
 
     # For multi-turn, you need a consistent thread/session ID
